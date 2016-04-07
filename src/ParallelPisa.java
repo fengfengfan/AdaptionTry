@@ -49,7 +49,7 @@ public class ParallelPisa {
             Future<Integer> subtreeResult = myPool.submit(new SubtreeTask(root.getChildren().get(i) ,
                     support , POI , currentTime , data));
             resultList.add(subtreeResult);
-            //sffssdfghjjdfghjk
+            //sffssdfghjjdfghjkjhjh
         }
         while (!isSubtreeDone(resultList)){
 
